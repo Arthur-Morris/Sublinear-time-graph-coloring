@@ -17,3 +17,5 @@ With that in mind the algorithim works like this:
 		remove one end each found edge
 
 this should run log n times
+
+Citations:Sublinear Algorithms for (Δ+1) Vertex Coloring.  By: Sepehr Assadi, Yu Chen, Sanjeev Khanna. Published 2018. available at: arxiv.org/abs/1807.08886
