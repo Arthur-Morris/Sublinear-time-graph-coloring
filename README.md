@@ -6,9 +6,13 @@ The algorithm is even simper than i thought. It is based on the property of deg 
 With that in mind the algorithim works like this:
 
 while there are uncoloured vertexes:
+
 	assign a random colour to each uncoloured vertex
+	
 	add each uncoloured vertex to their respective colour list
+	
 	search each colour list for edges
+	
 	remove one end each found edge
 
 this should run log n times
