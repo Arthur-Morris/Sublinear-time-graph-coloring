@@ -1,4 +1,6 @@
 # Sublinear-time-graph-coloring
+WORK ON THIS IS ON HOLD TEMPORARALY.
+
 this is the repo for my re implementation of the sub-linear tile graph coloring algorithm. When i wrote the original  implementation i get wrapped up in following the paper exactly so i included a bunch of stuff that wasn't actually needed.
 
 The algorithm is even simper than i thought. It is based on the property of deg + 1 colourings that any correct partial coloring can be extended into a full coloring. Graph colouring is fundamentally the process of splitting a graph into a number of independent sub-graphs. 
@@ -33,5 +35,11 @@ This is slightly different from the original algorithm which works like this:
 By spiting the algorithm up into rounds i am hoping to improve performance by avoiding sampling colours that are not needed, keeping the conflict sets small. this will also avoid the need for hole patching.
 
 i will also test if pair quires significantly improve performance.
+
+dev log:
+
+week one:
+re read the paper. re familiarized myself with the algorithm and the old code.
+a potential employer is having a problem with Dijkstra's algorithm so i am putting this on hold to investigate Dijkstra's algorithm.
 
 Citations:Sublinear Algorithms for (Δ+1) Vertex Coloring.  By: Sepehr Assadi, Yu Chen, Sanjeev Khanna. Published 2018. available at: arxiv.org/abs/1807.08886
